@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class PuzzleGame {
 
     private final Scanner scanner = new Scanner(System.in);
-    private final List<String> board = new ArrayList<>(List.of("1", "2", "3", "4", "8", "6", "7", "5", "#"));
+    private final List<String> board = List.of("1", "2", "3", "4", "8", "6", "7", "5", "#");
     private boolean isValidPosition = true;
     private boolean startGame = true;
     private Integer movements = 0;
