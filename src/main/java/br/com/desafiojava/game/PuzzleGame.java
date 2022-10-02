@@ -4,6 +4,7 @@ import br.com.desafiojava.enums.PositionEnum;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +13,7 @@ import java.util.Scanner;
 public class PuzzleGame {
 
     private final Scanner scanner = new Scanner(System.in);
-    private final List<String> board = List.of("1", "2", "3", "4", "8", "6", "7", "5", "#");
+    private final List<String> board = Arrays.asList("1", "2", "3", "4", "8", "6", "7", "5", "#");
     private boolean isValidPosition = true;
     private boolean startGame = true;
     private Integer movements = 0;
